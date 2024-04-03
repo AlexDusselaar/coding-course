@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffedd8;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #891652;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "Source Code Pro", monospace;
+  background-color: #240a34;
+  color: white;
+  padding: 1vw;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+a,
+p {
+  color: #240a34;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.8;
+}
+
+b {
+  font-family: "Source Code Pro", monospace;
+  font-weight: normal;
+  background-color: #240a34;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+nav {
+  background-color: #240a34;
+  padding: 0.5vw;
+  position: sticky; /* I dont know why this doesn't work */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 0 2vw;
+  color: #891652;
+  font-family: "Source Code Pro", monospace;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+nav a:hover {
+  color: #eabe6c;
+}
+
+h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #891652;
+  margin: 0.5vw;
+}
+
+header,
+section {
+  border-radius: 5px;
+  padding: 2vw;
+}
+
+header h3 {
+  font-size: 3rem;
+}
+
+header p,
+header a {
+  font-size: 1.2rem;
+}
+
+.bgcolor {
+  margin: 0 5vw;
+  background-color: #eabe6c;
+}
+
+footer {
+  background-color: #eabe6c;
+  padding: 4vh;
+}
+
+footer p {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #891652;
+}
+
+.doublesection {
+  display: flex;
+  justify-content: center;
+}
+
+#html {
+  margin-bottom: 5vw;
+}
+
+#htmltags div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#htmltags div p {
+  max-width: 20vw;
+}
+
+#htmltags div b {
+  font-size: 1.2rem;
+}
